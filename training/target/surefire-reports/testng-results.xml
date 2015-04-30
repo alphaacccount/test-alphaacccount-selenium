@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Tests" duration-ms="18371" started-at="2015-04-30T19:11:02Z" finished-at="2015-04-30T19:11:20Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="18371" started-at="2015-04-30T19:11:02Z" finished-at="2015-04-30T19:11:20Z">
+      <class name="ru.st.selenium.AddRemove">
+        <test-method status="PASS" signature="init()[pri:0, instance:ru.st.selenium.AddRemove@edf4efb]" name="init" is-config="true" duration-ms="259" started-at="2015-04-30T22:11:14Z" finished-at="2015-04-30T22:11:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="testAddRemove()[pri:0, instance:ru.st.selenium.AddRemove@edf4efb]" name="testAddRemove" duration-ms="6188" started-at="2015-04-30T22:11:14Z" finished-at="2015-04-30T22:11:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddRemove -->
+      </class> <!-- ru.st.selenium.AddRemove -->
+      <class name="ru.st.selenium.Search">
+        <test-method status="PASS" signature="init()[pri:0, instance:ru.st.selenium.Search@3d24753a]" name="init" is-config="true" duration-ms="5791" started-at="2015-04-30T22:11:02Z" finished-at="2015-04-30T22:11:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="testSearch()[pri:0, instance:ru.st.selenium.Search@3d24753a]" name="testSearch" duration-ms="6120" started-at="2015-04-30T22:11:08Z" finished-at="2015-04-30T22:11:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ru.st.selenium.Search@3d24753a]" name="tearDown" is-config="true" duration-ms="146" started-at="2015-04-30T22:11:20Z" finished-at="2015-04-30T22:11:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ru.st.selenium.Search -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Tests -->
+</testng-results>

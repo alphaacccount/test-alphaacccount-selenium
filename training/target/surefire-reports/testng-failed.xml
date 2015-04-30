@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Tests]" data-provider-thread-count="1">
+  <parameter name="path" value="/"/>
+  <test name="Test1(failed)">
+    <parameter name="path" value="/"/>
+    <classes>
+      <class name="ru.st.selenium.Search">
+        <methods>
+          <include name="init"/>
+          <include name="tearDown"/>
+          <include name="testSearch"/>
+        </methods>
+      </class> <!-- ru.st.selenium.Search -->
+      <class name="ru.st.selenium.AddRemove">
+        <methods>
+          <include name="testAddRemove"/>
+        </methods>
+      </class> <!-- ru.st.selenium.AddRemove -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Tests] -->
